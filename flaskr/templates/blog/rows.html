@@ -1,0 +1,7 @@
+{% for row in rows %}
+<tr>
+    <td><input type='checkbox' name='row_ids' value='{{ row[0] }}'></td>
+    <td>{{ row[0] }}</td>
+    <td>{{ row[2] }}</td>
+</tr>
+{% endfor %}
